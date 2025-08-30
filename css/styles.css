@@ -10237,11 +10237,13 @@ body {
 
 span {
    display: block;
+   padding: 0.5rem 0;
 }
 
 .projects-section .featured-text {
   padding: 2rem;
 }
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
@@ -10265,7 +10267,6 @@ span {
     border-width: 0.25rem;
     width: 30%;
   }
-}
 
  .projects-section .project-text-mid {
     padding: 3rem;
