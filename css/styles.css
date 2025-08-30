@@ -10235,6 +10235,10 @@ body {
   padding: 10rem 0 5rem 0;
 }
 
+span {
+   display: block;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
@@ -10248,6 +10252,10 @@ body {
   padding: 3rem;
   font-size: 90%;
 }
+.projects-section .project-text-mid {
+  padding: 2rem;
+  font-size: 90%;
+}
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
@@ -10256,6 +10264,16 @@ body {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
+  }
+}
+
+ .projects-section .project-text-mid {
+    padding: 3rem;
+  }
+  .projects-section .project-text-mid hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 50%;
   }
 }
 
